@@ -10,6 +10,15 @@ Users can perform multiple AI-powered tasks such as explaining concepts, summari
 
 ---
 
+## Live Demo
+
+Frontend: https://ai-student-assistant-ruddy.vercel.app  
+
+Backend API: https://ai-student-assistant-vmts.onrender.com
+
+Note: The backend is hosted on a free server and may take 20–30 seconds to respond on the first request due to server cold start.
+
+
 # Features
 
 ### AI Task Modes
@@ -58,6 +67,9 @@ The application supports four AI task modes:
 * Express.js
 * REST API architecture
 
+### Deployment
+- Vercel (Frontend Hosting)
+- Render (Backend Hosting)
 ### AI Integration
 
 * OpenRouter API (LLM API gateway)
@@ -290,6 +302,19 @@ Explain Concept
 4. The AI-generated explanation will appear in the chat interface.
 
 ---
+
+# Deployment
+
+The application is deployed using modern cloud platforms.
+
+Frontend:
+Hosted on Vercel.
+
+Backend:
+Hosted on Render.
+
+The frontend communicates with the backend API using REST endpoints.
+
 
 # Bonus Features
 
