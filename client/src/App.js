@@ -19,7 +19,7 @@ function App() {
     setLoading(true);
 
     try {
-      const res = await axios.post("http://localhost:5000/api/ai/generate", {
+      const res = await axios.post("https://ai-student-assistant-vmts.onrender.com", {
         prompt,
         mode,
       });
